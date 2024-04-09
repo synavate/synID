@@ -1,0 +1,19 @@
+{
+  "name": "synavate-spruceid",
+  "version": "0.1.0",
+  "description": "Synavate Spruce Version",
+  "author": "snyata <p4rlx-news@pm.me>",
+  "homepage": "http://synavate.tech",
+  "license": "Apache-2.0",
+  "main": "lib/spruceid.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/spruceid.test.js"
+  }
+}
