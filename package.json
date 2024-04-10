@@ -1,5 +1,6 @@
 {
   "name": "synid-js",
+  "type":"module",
   "version": "1.0.0",
   "description": "Synavate Integration of VeridaIO",
   "main": "index.js",
@@ -10,7 +11,8 @@
   "workspaces": [
     "packages/*",
     "verida-js",
-    "synid-js"
+    "synid-js",
+    "spruceid"
   ],
   "scripts": {
     "test": "jest run",
